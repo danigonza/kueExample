@@ -1,0 +1,23 @@
+{
+  "name": "kueExample",
+  "version": "0.0.1",
+  "author": "Danigonza <danigonza86@gmail.com>",
+  "description": "A simple exchange server using the kue library ",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danigonza/kueExample.git"
+  },
+  "dependencies": {
+    "express": "3.x",
+    "redis": "*",
+    "config": "0.4.15",
+    "request": "2.9.153",
+    "jscs": "*",
+    "clim": "*",
+    "kue": "*"
+  }
+}
